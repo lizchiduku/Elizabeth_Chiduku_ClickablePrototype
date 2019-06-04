@@ -3,29 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="themes/assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="ecommerce.css">
     <title>LizCosmetics: Buy a Product</title>
-    <link rel="stylesheet" href="ecommerce">
+
 
     <link href="themes/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="themes/assets/css/carousel.css" rel="stylesheet">
   </head>
   <body>
     <!-- NAVBAR -->
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <span class="navbar-toggler-icon"></span>          
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="index.php">LizCosmetics</a>
-            </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.php">Home</a></li>
@@ -34,26 +32,18 @@
                 <li><a href="request.php">Skin Care</a></li>
                 <li class="active"><a href="sell.php">Brushes & Tools</a></li>
                 <li class="active"><a href="sell.php">What's New</a></li>
-                <li><a href="about.php">About Us</a></li>
-              </ul>
-
-              <ul class="nav navbar-nav navbar-right">
+                <li><a href="about.php">About Us</a>
                 <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;My Cart&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
               </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
+             </div>
 
     <div class="pageTitle jumbotron">
       <div class="container">
         <h2>Real Beauty. Real Results!</h2>
       </div>
       <div class="container">
-        <p></p>
-        <p>Look for all your favorite products here. Sort in accordance with the price or alphabetically.</p>
+        <p>
+        <p>Look for all your favorite products here, find the perfect coverage for your beauty routine.</p>
       </div>
     </div>
 
@@ -64,41 +54,18 @@
       <div class="container">
         <form action="php/sell_backend.php" method="post" enctype="multipart/form-data" >
 
-          <h2> Product Details </h2>
-
-          <div class="form-group">
-            <label >Name:</label>
-            <input class="form-control" name="bname" placeholder="Enter Product">
-          </div>
-
-          <div class="form-group">
-            <label >Author:</label>
-            <input class="form-control" name="author" placeholder="Enter Author Name">
-          </div>
-
-          <div class="form-group">
-            <label >Subject:</label>
-            <input class="form-control" name="subject" placeholder="Enter Subject">
-          </div>
-
-          <div class="form-group">
-            <label >Price:</label>
-            <input class="form-control" name="price" placeholder="Quote a price for your product">
-          </div>
+        
 
           <br>
           <h2> Join our Insiders </h2>
 
           <div class="form-group">
-            <label >Your Name:</label>
+            <label >Name:</label>
             <input class="form-control" name="contactname" placeholder="Enter Your Name">
           </div>
-
           <div class="form-group">
             <label >E-mail:</label>
             <input class="form-control" name="email" placeholder="Enter Your Email">
-          </div>
-          
           <br><br>
           <input class="btn btn-danger" type="submit" value="Submit"> </input>
         </form>
@@ -106,9 +73,7 @@
     </div>
     <div class="col-md-1"></div>
     </div>
-
     <br><br>
-
 
     <div class="introSection">
         <div class="container">
@@ -139,9 +104,6 @@
 
         </div>
 
-        </div>
-        </div>
-    </div>
 
     <!-- FOOTER -->
     <footer>
