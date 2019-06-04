@@ -11,57 +11,7 @@
     <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
 
     <!-- Google map api from developers.google.com -->
-    <script>
-      var map;
-      var infoWindow;
-      var service;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('googleMap'), {
-          center: {lat: 28.630, lng: 77.371},
-          zoom: 14,
-          styles: [{
-            stylers: [{ visibility: 'simplified' }]
-          }, {
-            elementType: 'labels'
-          }]
-        });
-        infoWindow = new google.maps.InfoWindow();
-        service = new google.maps.places.PlacesService(map);
-        map.addListener('idle', performSearch);
-      }
-      function performSearch() {
-        var request = {
-          bounds: map.getBounds(),
-          keyword: 'libraries'
-        };
-        service.radarSearch(request, callback);
-      }
-      function callback(results, status) {
-        if (status !== google.maps.places.PlacesServiceStatus.OK) {
-          console.error(status);
-          return;
-        }
-        for (var i = 0, result; result = results[i]; i++) {
-          addMarker(result);
-        }
-      }
-      function addMarker(place) {
-        var marker = new google.maps.Marker({
-          map: map,
-          position: place.geometry.location
-        });
-        google.maps.event.addListener(marker, 'click', function() {
-          service.getDetails(place, function(result, status) {
-            if (status !== google.maps.places.PlacesServiceStatus.OK) {
-              console.error(status);
-              return;
-            }
-            infoWindow.setContent(result.name);
-            infoWindow.open(map, marker);
-          });
-        });
-      }
-    </script>
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="521" id="gmap_canvas" src="https://maps.google.com/maps?q=Frisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:521px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:521px;width:1080px;}</style></div>    </script>
 
   </head>
   <body>
@@ -143,19 +93,19 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="themes/assets/images/optics.jpg">
+          <img class="img-circle" src="Bare Minerals.png">
           <h2>Mac Foundation</h2>
           <p>Highlighters</p>
           <p><a class="btn btn-default" href="#" role="button">₹500 Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="themes/assets/images/8051.jpg">
+          <img class="img-circle" src="lotion.png">
           <h2>Au De Parfume</h2>
           <p>Bobby Brown </p>
           <p><a class="btn btn-default" href="#" role="button">₹200 Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img style="width:408px;height:500px;" class="img-circle" src="themes/assets/images/java.jpeg" >
+          <img style="width:408px;height:500px;" class="img-circle" src="Mascara.jpg" >
           <h2>Lorem Ipsum</h2>
           <p>Lorem Ipsum</p>
           <p><a class="btn btn-default" href="#" role="button">490 Add to cart &raquo;</a></p>
@@ -187,17 +137,17 @@
         <div class="item active">
          <div class="row">
             <div class="col-lg-4">
-              <img src="themes/assets/images/java.jpeg" style="width:230px;height:300px;">
+              <img src="powder.jpg" style="width:300px;height:350px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-              <img src="themes/assets/images/c.jpg" style="width:230px;height:300px;">
+              <img src="eye.png" style="width:350px;height:300px;">
               <h4>Let Us C</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-              <img src="themes/assets/images/neural.jpg" style="width:230px;height:300px;">
+              <img src="fou.jpg" style="width:230px;height:300px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -207,7 +157,7 @@
         <div class="item">
          <div class="row">
             <div class="col-lg-4">
-              <img src="themes/assets/images/java.jpeg" style="width:230px;height:300px;">
+              <img src="shopping.png" style="width:230px;height:300px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -486,26 +436,12 @@
           <img src="themes/assets/images/optics.jpg" style="width:300px;height:365px;">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">We will always honor a return for our customers if they are unsatisfied with a product for any reason. Just make sure you submit your return within 30 days of purchase for a full refund, minus original shipping costs.<span class="text-muted"> By Ajoy Ghatak</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">We will always honor a return for our customers if they are unsatisfied with a product for any reason. Just make sure you submit your return within 30 days of purchase for a full refund, minus original shipping costs.<span class="text-muted"></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</
         </div>
       </div>
       </div>
 
-    <div class="item">
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading"> Algorithms and Data Structures- 3rd Edition <span class="text-muted"> By Thomas H. Cormen</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="img-circle" src="themes/assets/images/hp.jpg" style="width:300px;height:365px;">
-        </div>
-      </div>
-      </div>
-       </div>
-    </div>    
-    </div>
       <!-- /END THE FEATURETTES -->
 
 
