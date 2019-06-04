@@ -3,15 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="themes/assets/ico/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="ecommerce.css">
     <title>LizCosmetics: Your Best Cosmetics Supplier</title>
 
     <link href="themes/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="themes/assets/css/carousel.css" rel="stylesheet">
     <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
-
-    <!-- Google map api from developers.google.com -->
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="521" id="gmap_canvas" src="https://maps.google.com/maps?q=Frisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:521px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:521px;width:1080px;}</style></div>    </script>
 
   </head>
   <body>
@@ -93,7 +90,7 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="Bare Minerals.png">
+          <img class="img-circle" src="lash.jpg">
           <h2>Mac Foundation</h2>
           <p>Highlighters</p>
           <p><a class="btn btn-default" href="#" role="button">₹500 Add to cart &raquo;</a></p>
@@ -162,12 +159,12 @@
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-              <img src="themes/assets/images/c.jpg" style="width:230px;height:300px;">
+              <img src="bru.jpg" style="width:230px;height:300px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-              <img src="themes/assets/images/neural.jpg" style="width:230px;height:300px;">
+              <img src="brush.png" style="width:230px;height:300px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -177,21 +174,15 @@
         <div class="item">
          <div class="row">
             <div class="col-lg-4">
-              <img src="themes/assets/images/c.jpg" style="width:230px;height:300px;">
+              <img src="mascara.jpg" style="width:230px;height:300px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-              <img src="themes/assets/images/java.jpeg" style="width:230px;height:300px;">
+              <img src="bru.jpg" style="width:500px;height:400px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="themes/assets/images/neural.jpg" style="width:230px;height:300px;">
-              <h4>Lorem Ipsum</h4>
-              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-         </div><!-- /.row -->
         </div>
 
       </div>
@@ -243,28 +234,6 @@
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
          </div><!-- /.row -->
-        </div>
-
-        <div class="item">
-         <div class="row">
-            <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
-              <h4>Lorem Ipsum</h4>
-              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
-              <h4>Lorem Ipsum</h4>
-              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
-              <h4>Lorem Ipsum</h4>
-              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-         </div><!-- /.row -->
-        </div>
-
       </div>
       <a class="left carousel-control" href="#myCarousel2" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel2" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -279,37 +248,17 @@
         <div class="item active">
          <div class="row">
             <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
+              <img src="shopping.png" style="width:530px;height:400px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-              <img src="themes/assets/images/optics.jpg" style="width:230px;height:300px;">
+              <img src="themes/assets/images/optics.jpg" style="width:530px;height:400px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
-              <h4>Lorem Ipsum</h4>
-              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-         </div><!-- /.row -->
-        </div>
-
-        <div class="item">
-         <div class="row">
-            <div class="col-lg-4">
-              <img src="themes/assets/images/optics.jpg" style="width:230px;height:300px;">
-              <h4>Lorem Ipsum</h4>
-              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
-              <h4>Lorem Ipsum</h4>
-              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
+              <img src="themes/assets/images/hp.jpg" style="width:530px;height:400px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -319,17 +268,17 @@
         <div class="item">
          <div class="row">
             <div class="col-lg-4">
-              <img src="themes/assets/images/optics.jpg" style="width:230px;height:300px;">
+              <img src="Foundation." style="width:530px;height:400px;">
+              <h4>Lorem Ipsum</h4>
+              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="mak.jpglg-4">
+              <img src="more.jpg" style="width:530px;height:400px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
-              <h4>Lorem Ipsum</h4>
-              <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="themes/assets/images/hp.jpg" style="width:230px;height:300px;">
+              <img src="powder.jpg" style="width:530px;height:400px;">
               <h4>Lorem Ipsum</h4>
               <p><a class="btn btn-default" href="#" role="button">Add to cart &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -349,7 +298,7 @@
         <div class="col-lg-4">
         <div class="media">
             <h4>Our Most Popular</h4>
-            <a href="menu/"><img src="themes/assets/images/memory.jpg" style="width:270px;height:330px;"> </a>
+            <a href="menu/"><img src="mak.jpg" style="width:270px;height:330px;"> </a>
             <h3 class="media-heading text-primary-theme">Lorem Ipsum</h3>
             <p>Lorem Ipsum</p>
         </div>
@@ -358,7 +307,7 @@
         <div class="col-lg-4">
         <div class="media">
           <h4>Our Most Popular</h4>
-          <a href="menu/"><img src="themes/assets/images/database.jpg" style="width:270px;height:330px;"> </a>                        
+          <a href="menu/"><img src="make.jpg" style="width:270px;height:330px;"> </a>                        
           <h3 class="media-heading text-danger-theme">Lorem Ipsum</h3>
           <p>Lorem Ipsum</p>
         </div>
@@ -367,7 +316,7 @@
         <div class="col-lg-4">
         <div class="media">
           <h4>Our Most Popular</h4>
-          <a href="menu/"><img src="themes/assets/images/genetics.jpg" style="width:270px;height:330px;"> </a>
+          <a href="menu/"><img src="more.jpg" style="width:450px;height:400px;"> </a>
           <h3 class="media-heading">Lorem Ipsum</h3>
           <p>Lorem Ipsum</p>
         </div>
@@ -406,14 +355,13 @@
         <p>
         We are the your most trusted brand!
         </p>
-
-        </div>
-
-        </div>
-        </div>
-    </div>
-
-
+</div>
+<style>
+    body  {
+      background-image: url("paper.gif");
+      background-color: #cccccc;
+    }
+    </style>
    <div class="container marketing">
    <div id="myCarousel4" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -425,7 +373,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img src="themes/assets/images/database.jpg" style="width:300px;height:365px;">
+          <img src="eyesh.jpg" style="width:450px;height:400px;">
         </div>
       </div>
       </div>
@@ -433,17 +381,18 @@
     <div class="item">
       <div class="row featurette">
         <div class="col-md-5">
-          <img src="themes/assets/images/optics.jpg" style="width:300px;height:365px;">
+          <img src="lash.jpg" style="width:700px;height:400px;">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">We will always honor a return for our customers if they are unsatisfied with a product for any reason. Just make sure you submit your return within 30 days of purchase for a full refund, minus original shipping costs.<span class="text-muted"></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</
         </div>
       </div>
-      </div>
+        <!-- Google map api from developers.google.com -->
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Frisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style>
+
 
       <!-- /END THE FEATURETTES -->
-
 
       <!-- FOOTER -->
       <footer>
@@ -452,9 +401,6 @@
         <p>&copy; 2019 Copywrite <a href="about.php">Elizbaeth Chiduku</a> </p>
         </div>
       </footer>
-
-
-
     <!-- Bootstrap core JavaScript-->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="themes/dist/js/bootstrap.min.js"></script>
